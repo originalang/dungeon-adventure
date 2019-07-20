@@ -1,28 +1,28 @@
 {
-    "id": "d8183751-fc3f-4986-a0e5-319d626690fd",
+    "id": "b9c12b62-f7ed-4709-9b8e-6ddd41130dcd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_heavy_bandit",
+    "name": "o_enemy",
     "eventList": [
         {
-            "id": "09e80ed9-c872-4b8d-93a1-d4a4e94c677a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d8183751-fc3f-4986-a0e5-319d626690fd"
-        },
-        {
-            "id": "dc1e48bc-47e7-466c-aeb2-7e9b71a60f00",
+            "id": "c1f57089-ecb9-41c7-a391-1fda5ec78769",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d8183751-fc3f-4986-a0e5-319d626690fd"
+            "m_owner": "b9c12b62-f7ed-4709-9b8e-6ddd41130dcd"
+        },
+        {
+            "id": "04f6924e-5508-404d-8c53-8d1bf19651e0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b9c12b62-f7ed-4709-9b8e-6ddd41130dcd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b6f415ee-85ef-45d6-b7ba-20ec172e9277",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

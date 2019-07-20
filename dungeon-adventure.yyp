@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "262954a7-b653-4f85-98c5-1ebb64adb3f9",
+            "Value": {
+                "id": "2cfc9137-3f29-4ea8-9211-79e8038347de",
+                "resourcePath": "sprites\\s_heavy_bandit_attack\\s_heavy_bandit_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a36dffa-7645-4d97-bf76-deb1339bd34d",
             "Value": {
                 "id": "a403298a-425c-496a-b6f7-2c033124f275",
@@ -271,6 +279,22 @@
             }
         },
         {
+            "Key": "b9c12b62-f7ed-4709-9b8e-6ddd41130dcd",
+            "Value": {
+                "id": "5e0162ac-ceea-4a11-b3b1-400335018392",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bedaa759-d6c3-4f31-afe4-f6cc7e5893cd",
+            "Value": {
+                "id": "fb3cacc4-ab7c-4ce6-9398-d2620b2b351d",
+                "resourcePath": "scripts\\apply_gravity\\apply_gravity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c403dec1-b85d-4080-93b7-87588142c3eb",
             "Value": {
                 "id": "dbadb95a-81de-4129-a883-a487a0ff7cd8",
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "ced0c94a-f285-4846-a32a-80f019bd8bbc",
+            "Value": {
+                "id": "430d40d5-64be-48c5-a519-d0b43b382b91",
+                "resourcePath": "scripts\\move_horizontal\\move_horizontal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d40c6c63-116f-4d51-8ec3-c1c3aeaf530d",
             "Value": {
                 "id": "ab0e7dc0-208d-4761-bf33-cf3ce83978de",
@@ -303,19 +335,19 @@
             }
         },
         {
+            "Key": "d52df38f-2eb7-41f5-977d-aa2fafa40fc6",
+            "Value": {
+                "id": "3991ef79-ba2c-47a0-97ba-28fec3334ad1",
+                "resourcePath": "sprites\\s_heavy_bandit_mask\\s_heavy_bandit_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d718150b-11fe-4f52-bed7-00661a268083",
             "Value": {
                 "id": "e2558b73-5d3d-44a8-af04-c18b57c05470",
                 "resourcePath": "sprites\\s_player_jump\\s_player_jump.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d8183751-fc3f-4986-a0e5-319d626690fd",
-            "Value": {
-                "id": "41366625-b1ff-4fc7-870f-680a516ed244",
-                "resourcePath": "objects\\o_heavy_bandit\\o_heavy_bandit.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -403,7 +435,9 @@
         "fb9470d5-2e3c-4e7b-9ef5-2083ed904cf4",
         "843165d8-512f-4a77-8605-ac5ea559ed46",
         "442b707c-8368-473c-926e-c9dcf0832c1f",
-        "332cfe98-b1f4-49ab-8e85-1acaebfe1793"
+        "332cfe98-b1f4-49ab-8e85-1acaebfe1793",
+        "bedaa759-d6c3-4f31-afe4-f6cc7e5893cd",
+        "ced0c94a-f285-4846-a32a-80f019bd8bbc"
     ],
     "tutorial": ""
 }

@@ -67,13 +67,13 @@ switch state {
 			
 			if hsp == 0 {
 				sprite_index = s_player_idle;				
+			} else if input.down {
+				sprite_index = s_player_crouch;
 			} else {
 				sprite_index = s_player_run;				
 			}
 			
 			if hsp != 0 image_xscale = sign(hsp);
-			
-			if input.down sprite_index = s_player_crouch; else sprite_index = s_player_idle;
 		}
 		
 		// state changes			
