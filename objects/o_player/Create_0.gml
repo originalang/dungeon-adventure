@@ -25,3 +25,5 @@ on_platform = false;
 state = "normal";
 
 input = instance_create_layer(0, 0, "Player", o_input);
+
+hp = 20;
