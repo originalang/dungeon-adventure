@@ -143,6 +143,10 @@ switch state {
 		#region Combo One State
 		sprite_index = s_player_backhand_strike;
 		
+		if animation_hit_frame(2) {
+			create_hitbox(x, y, self, s_player_backhand_strike_damage, 4, 4, 2, image_xscale);
+		}
+		
 		if input.char_x {
 			image_index = 0;
 			state = "combo2";
@@ -158,6 +162,18 @@ switch state {
 	case "combo2":
 		#region Combo Two State
 		sprite_index = s_player_combo;
+		
+		if animation_hit_frame(4) {
+			create_hitbox(x, y, self, s_player_combo_damage1, 4, 4, 2, image_xscale);
+		}
+		
+		if animation_hit_frame(7) {
+			create_hitbox(x, y, self, s_player_combo_damage2, 4, 4, 2, image_xscale);
+		}
+		
+		if animation_hit_frame(13) {
+			create_hitbox(x, y, self, s_player_combo_damage1, 4, 4, 3, image_xscale);
+		}
 		
 		// when the animation has ended, go back to the normal state
 		if animation_end() {

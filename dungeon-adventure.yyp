@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "37da86e1-aac5-4fbe-8eff-0f98ddde383f",
+            "Value": {
+                "id": "fe6102c3-1c04-4413-b0df-ed20550f5342",
+                "resourcePath": "sprites\\s_player_combo_damage1\\s_player_combo_damage1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3988fd1b-2a4f-404a-aa69-d4e0dc2ca191",
             "Value": {
                 "id": "7e19060d-25e8-4ed6-9826-cfcab897dafb",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "7b802ab5-b220-4654-bd8c-2241eb281f2f",
+            "Value": {
+                "id": "d4060ac5-8073-4b35-8636-eaa2daf075cd",
+                "resourcePath": "sprites\\s_player_combo_damage3\\s_player_combo_damage3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83c70bb1-4a63-4db3-ac71-af1507774d6f",
             "Value": {
                 "id": "2f664452-64af-473a-b64a-8c39ac7a8e54",
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "9d5fc5fc-a429-40f4-8f74-7912dd76a9f8",
+            "Value": {
+                "id": "6d943891-5a0c-48ec-afb8-5a3e05994c5a",
+                "resourcePath": "sprites\\s_player_combo_damage2\\s_player_combo_damage2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a57ec78f-bac6-4b53-8090-0d6b65cd9c26",
             "Value": {
                 "id": "16f5dd09-cc38-4d1c-a046-f6f18c16a42a",
@@ -340,6 +364,14 @@
                 "id": "ea7e911c-f27d-400c-a895-412719d32a2e",
                 "resourcePath": "views\\b3822245-bf7c-4a70-81e2-97b0970e01a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b4f8585a-d7f3-49ae-96fc-6c9235874852",
+            "Value": {
+                "id": "89a4d90c-c6ac-4674-aff2-818ca807821d",
+                "resourcePath": "sprites\\s_player_backhand_strike_damage\\s_player_backhand_strike_damage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
