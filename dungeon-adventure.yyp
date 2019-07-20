@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "219adc24-889c-429c-8ad7-d3893f7defd3",
+            "Value": {
+                "id": "8d6291c5-0242-4708-84ec-e7fff2a5ecdc",
+                "resourcePath": "objects\\o_heavy_bandit\\o_heavy_bandit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22a5d045-7275-410a-9230-26b31db36bb1",
             "Value": {
                 "id": "f1614d23-8deb-488c-99d9-ba7fe9d962d5",
