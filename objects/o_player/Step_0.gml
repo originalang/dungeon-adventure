@@ -123,6 +123,10 @@ switch state {
 		#region Attack State
 		sprite_index = s_player_down_strike;
 		
+		if animation_hit_frame(1) {
+			create_hitbox(x, y, self, s_player_down_strike_damage, 4, 4, 1, image_xscale);
+		}
+		
 		if input.shift {
 			image_index = 0;
 			state = "combo1";
