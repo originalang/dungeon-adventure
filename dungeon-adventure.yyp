@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01867463-e122-4fce-8295-f2692cb03f36",
+            "Value": {
+                "id": "ec6fb054-7514-421a-a6a5-11a63d9d0492",
+                "resourcePath": "views\\01867463-e122-4fce-8295-f2692cb03f36.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "08087c2c-1b5b-49e2-b035-056a16818f34",
             "Value": {
                 "id": "5450818d-680b-4ded-ba3e-2382d7e21a08",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "18f92274-7df8-43d1-b705-0b4bf98b5cb3",
                 "resourcePath": "sprites\\s_player_crouch\\s_player_crouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1aae9dbb-27fd-4d6e-b732-a1c4549de470",
+            "Value": {
+                "id": "3ac70cd7-82a4-4964-bfc8-51ef59d64db3",
+                "resourcePath": "sprites\\s_light_bandit_run\\s_light_bandit_run.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -108,6 +124,14 @@
                 "id": "b9abb931-93f3-4977-947a-cad1c562b245",
                 "resourcePath": "views\\2e394c8a-cc47-41ed-85a8-8fdff2aa01b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3225cfd5-aa65-4c92-bf22-6748d76000c8",
+            "Value": {
+                "id": "ce8ab6df-cd42-4070-b37e-3d9442c7d74f",
+                "resourcePath": "sprites\\s_light_bandit_attack\\s_light_bandit_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,6 +311,14 @@
             }
         },
         {
+            "Key": "ab6eec4d-f4d4-4751-9a03-e1f8f6a7724c",
+            "Value": {
+                "id": "01d8f7d0-619c-46d6-b1f3-9584a6a19ad6",
+                "resourcePath": "sprites\\s_light_bandit_idle\\s_light_bandit_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3822245-bf7c-4a70-81e2-97b0970e01a8",
             "Value": {
                 "id": "ea7e911c-f27d-400c-a895-412719d32a2e",
@@ -340,6 +372,14 @@
                 "id": "102a6be2-ab63-41a5-afe3-ab96d70a54b2",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd0d2431-d782-4619-88fb-25bc36fc6c69",
+            "Value": {
+                "id": "789c2a16-f571-406c-a6d8-63b08156adbe",
+                "resourcePath": "sprites\\s_light_bandit_mask\\s_light_bandit_mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +484,14 @@
                 "id": "8c4a57ab-697d-45e8-acb4-88a4e4479b2c",
                 "resourcePath": "sprites\\s_player_jump_roll\\s_player_jump_roll.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f220c776-c7a4-4a74-b943-52bf520a0465",
+            "Value": {
+                "id": "ccf6ff20-9cc3-454d-ac1e-33a39ba490e8",
+                "resourcePath": "objects\\o_light_bandit\\o_light_bandit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
