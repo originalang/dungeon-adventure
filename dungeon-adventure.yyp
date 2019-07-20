@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "45068788-5dab-4ce9-9a9c-790f91a27ccf",
+            "Value": {
+                "id": "65357fee-309d-415d-8d5a-2ab591e1ad0f",
+                "resourcePath": "scripts\\x_distance_to_player\\x_distance_to_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "558287e6-d30d-4fa0-8604-bb20b6ad7880",
             "Value": {
                 "id": "d4f0d1e8-45a8-47fd-a507-fa75b2267134",
                 "resourcePath": "sprites\\s_heavy_bandit_run\\s_heavy_bandit_run.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60f3bf0b-7ada-4616-8bc4-99fecc5dfb9d",
+            "Value": {
+                "id": "b5616ac5-cfaf-40f9-b795-930453bc3380",
+                "resourcePath": "scripts\\y_distance_to_player\\y_distance_to_player.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -445,7 +461,9 @@
         "442b707c-8368-473c-926e-c9dcf0832c1f",
         "332cfe98-b1f4-49ab-8e85-1acaebfe1793",
         "bedaa759-d6c3-4f31-afe4-f6cc7e5893cd",
-        "ced0c94a-f285-4846-a32a-80f019bd8bbc"
+        "ced0c94a-f285-4846-a32a-80f019bd8bbc",
+        "45068788-5dab-4ce9-9a9c-790f91a27ccf",
+        "60f3bf0b-7ada-4616-8bc4-99fecc5dfb9d"
     ],
     "tutorial": ""
 }

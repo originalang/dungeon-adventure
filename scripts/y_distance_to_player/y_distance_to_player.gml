@@ -1,0 +1,1 @@
+return abs(y - o_player.y);

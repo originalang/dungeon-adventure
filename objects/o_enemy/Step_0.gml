@@ -7,8 +7,8 @@ switch state {
 		vsp += grv;
 		apply_gravity(vsp);
 		
-		if distance_to_object(o_player) <= chase_range and abs(x - o_player.x) != 0 {
-			state = "chase";
+		if distance_to_object(o_player) <= chase_range and x_distance_to_player() != 0 {
+			if y_distance_to_player() < 16 state = "chase";
 		}
 		#endregion
 		break;
@@ -28,7 +28,7 @@ switch state {
 		hsp = chase_speed * -dir;
 		move_horizontal(hsp);
 		
-		if distance_to_object(o_player) > chase_range or abs(x - o_player.x) == 0 {
+		if distance_to_object(o_player) > chase_range or x_distance_to_player() == 0 {
 			state = "normal";
 		}
 		
@@ -42,8 +42,12 @@ switch state {
 		#region Attack State
 		sprite_index = s_heavy_bandit_attack;
 		
-		if distance_to_object(o_player) > attack_range or abs(x - o_player.x) == 0 {
+		if distance_to_object(o_player) > attack_range {
 			state = "chase";
+		}
+		
+		if abs(x - o_player.x) == 0 {
+			state = "normal";
 		}
 		#endregion
 		break;
