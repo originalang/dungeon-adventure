@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1e483dac-2bd9-41f8-83ac-62fc96e8f80f",
+            "Value": {
+                "id": "473d26d0-3e25-4a90-8f5e-a5f016035b00",
+                "resourcePath": "sprites\\s_heavy_bandit_attack_damage\\s_heavy_bandit_attack_damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ff514ea-76eb-4971-bedd-d79b4200407a",
             "Value": {
                 "id": "73fd2bd0-8a21-4e8b-a142-f960c78fd849",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "81e8f5d6-9323-4d84-a0e6-8abb7c5b32d4",
+            "Value": {
+                "id": "86b0c544-9157-4246-b6e1-f5d91851a261",
+                "resourcePath": "objects\\o_lifeform\\o_lifeform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83c70bb1-4a63-4db3-ac71-af1507774d6f",
             "Value": {
                 "id": "2f664452-64af-473a-b64a-8c39ac7a8e54",
@@ -300,6 +316,14 @@
                 "id": "2470b01c-0ed2-4b84-a2a3-8c9c63007e0a",
                 "resourcePath": "objects\\o_input\\o_input.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a54ac07-7506-40d3-8fdc-8304c9bb424c",
+            "Value": {
+                "id": "4935beae-6c7b-4856-9a46-fb9c0a925789",
+                "resourcePath": "sprites\\s_light_bandit_attack_damage\\s_light_bandit_attack_damage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
