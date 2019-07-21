@@ -258,7 +258,7 @@
             "Key": "65810498-968e-4421-8541-b159e74516fc",
             "Value": {
                 "id": "f6977958-f1e5-42ae-b071-e269199b8372",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Level1\\Level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "d76c06b1-acdf-412f-960c-9ab3f1259fef",
+            "Value": {
+                "id": "dfe44c2c-6c14-4d4c-ae6a-93d6285c3055",
+                "resourcePath": "sprites\\s_dungeon\\s_dungeon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dfd6c797-9e87-4bea-8c72-7510bc7f38c1",
             "Value": {
                 "id": "f8edd31c-edbf-41b8-9e61-eab3764fca0e",
@@ -564,6 +572,14 @@
                 "id": "37cb1980-e392-45f8-ba64-092222177f90",
                 "resourcePath": "objects\\o_player\\o_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e9bf4d91-4635-476b-bacc-0b08122fbcaa",
+            "Value": {
+                "id": "63ebcf9f-040b-46ce-8b28-6e4a35017cfe",
+                "resourcePath": "tilesets\\t_dungeon\\t_dungeon.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
