@@ -1,3 +1,5 @@
+//if not hascontrol exit;
+
 // this variable handles the direction of movement
 // the input variables return 1 or 0 depending on whether the key is pressed
 // right pressed: 1 - 0 = 1 => move right

@@ -1,5 +1,8 @@
 // instance variables for the player
 
+// determine wheteher the player has control of the player sprite
+hascontrol = true;
+
 // horizontal speed
 // define movement on the platform
 hsp = 0;
