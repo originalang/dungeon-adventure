@@ -258,8 +258,16 @@
             "Key": "65810498-968e-4421-8541-b159e74516fc",
             "Value": {
                 "id": "f6977958-f1e5-42ae-b071-e269199b8372",
-                "resourcePath": "rooms\\Level1\\Level1.yy",
+                "resourcePath": "rooms\\r_level1\\r_level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "66c1338b-760d-4e0b-9d27-b2779ffe2733",
+            "Value": {
+                "id": "0f4993cc-6e41-41d2-ab99-4ff435f3e2b1",
+                "resourcePath": "scripts\\transition\\transition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "c72e8e14-bf75-43d8-8a88-a7c1904a6d4c",
+            "Value": {
+                "id": "4a38e157-e582-418f-bebf-d6ca65365e94",
+                "resourcePath": "objects\\o_transition\\o_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c73b981b-05b1-48ff-87da-d2a806470896",
             "Value": {
                 "id": "325b6dcd-789c-46bb-b97c-d59a7f0e8faf",
@@ -656,7 +672,8 @@
         "ced0c94a-f285-4846-a32a-80f019bd8bbc",
         "45068788-5dab-4ce9-9a9c-790f91a27ccf",
         "60f3bf0b-7ada-4616-8bc4-99fecc5dfb9d",
-        "13454c6e-e92c-40f5-b303-8919e88528a1"
+        "13454c6e-e92c-40f5-b303-8919e88528a1",
+        "66c1338b-760d-4e0b-9d27-b2779ffe2733"
     ],
     "tutorial": ""
 }
