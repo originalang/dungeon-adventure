@@ -1,3 +1,8 @@
+if not instance_exists(o_player) {
+	state = "normal";
+	exit;
+}
+
 switch state {
 	case "normal":
 		#region Normal State
@@ -50,5 +55,20 @@ switch state {
 			state = "normal";
 		}
 		#endregion
+		break;
+		
+	case "knockback":
+		#region Knockback State
+		x += lerp(knockback * image_xscale, 0, 0.2);
+		
+		if animation_end() {
+			state = "normal";
+		}		
+		#endregion
+		break;
+		
+	default:
+		show_debug_message("The state " + state + " does not exist");
+		state = "normal";
 		break;
 }

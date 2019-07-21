@@ -16,4 +16,8 @@ switch state {
 			create_hitbox(x, y, self, s_heavy_bandit_attack_damage, 4, 4, 2, image_xscale);
 		}
 		break;
+		
+	case "knockback":
+		sprite_index = s_heavy_bandit_knockback;
+		break;
 }

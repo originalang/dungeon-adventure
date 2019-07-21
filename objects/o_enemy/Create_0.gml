@@ -11,3 +11,4 @@ chase_speed = 2;
 attack_range = 10;
 
 hp = 6;
+knockback = 0;

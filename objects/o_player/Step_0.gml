@@ -124,7 +124,7 @@ switch state {
 		sprite_index = s_player_down_strike;
 		
 		if animation_hit_frame(1) {
-			create_hitbox(x, y, self, s_player_down_strike_damage, 4, 4, 1, image_xscale);
+			create_hitbox(x, y, self, s_player_down_strike_damage, 1, 4, 1, image_xscale);
 		}
 		
 		if input.shift {
@@ -144,7 +144,7 @@ switch state {
 		sprite_index = s_player_backhand_strike;
 		
 		if animation_hit_frame(2) {
-			create_hitbox(x, y, self, s_player_backhand_strike_damage, 4, 4, 2, image_xscale);
+			create_hitbox(x, y, self, s_player_backhand_strike_damage, 2, 4, 2, image_xscale);
 		}
 		
 		if input.char_x {
@@ -164,11 +164,11 @@ switch state {
 		sprite_index = s_player_combo;
 		
 		if animation_hit_frame(4) {
-			create_hitbox(x, y, self, s_player_combo_damage1, 4, 4, 2, image_xscale);
+			create_hitbox(x, y, self, s_player_combo_damage1, 3, 4, 2, image_xscale);
 		}
 		
 		if animation_hit_frame(7) {
-			create_hitbox(x, y, self, s_player_combo_damage2, 4, 4, 2, image_xscale);
+			create_hitbox(x, y, self, s_player_combo_damage2, 3, 4, 2, image_xscale);
 		}
 		
 		if animation_hit_frame(13) {
@@ -180,5 +180,20 @@ switch state {
 			state = "normal";
 		}
 		#endregion
+		break;
+		
+	case "destroy":
+		#region Destroy State
+		sprite_index = s_player_knockback;
+		
+		if animation_end() {
+			instance_destroy();
+		}
+		#endregion
+		break;
+		
+	default:
+		show_debug_message("The state " + state + " does not exist");
+		state = "normal";
 		break;
 }

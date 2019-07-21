@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0dedccbf-f1f9-4f92-b31b-fc5286b40d96",
+            "Value": {
+                "id": "4b827f44-a554-48df-a288-f0289f1d520d",
+                "resourcePath": "sprites\\s_light_bandit_destroy\\s_light_bandit_destroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13454c6e-e92c-40f5-b303-8919e88528a1",
             "Value": {
                 "id": "bfeb6b26-ff4e-49ef-a083-03381e3f2a01",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "4757054e-1ef5-4685-a4ec-eaa2aa5e72fa",
+            "Value": {
+                "id": "850c11a4-cfa7-498e-af79-5cad755285d0",
+                "resourcePath": "sprites\\s_light_bandit_knockback\\s_light_bandit_knockback.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "558287e6-d30d-4fa0-8604-bb20b6ad7880",
             "Value": {
                 "id": "d4f0d1e8-45a8-47fd-a507-fa75b2267134",
@@ -327,10 +343,34 @@
             }
         },
         {
+            "Key": "8a9a8eb6-7130-4bc3-b4b3-7a3099df1c5e",
+            "Value": {
+                "id": "238ca320-f62d-40dc-a8ed-e024fe7fae91",
+                "resourcePath": "sprites\\s_heavy_bandit_knockback\\s_heavy_bandit_knockback.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b127cce-7d19-4d75-911b-5945c6ba1275",
+            "Value": {
+                "id": "136df40a-a0d1-4235-9ddf-d32521c9ef9a",
+                "resourcePath": "sprites\\s_player_knockback\\s_player_knockback.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94130e4a-77b7-45d3-90e4-eb12e1dd866a",
             "Value": {
                 "id": "bf5e11e9-54db-417a-8b5b-c0d015cbbf7d",
                 "resourcePath": "sprites\\s_player_idle_sword\\s_player_idle_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94a1eafd-fd80-4f06-a4f6-d11981a93b11",
+            "Value": {
+                "id": "5b894ced-0ce0-464d-a1d7-13bdbdc965f1",
+                "resourcePath": "sprites\\s_heavy_bandit_destroy\\s_heavy_bandit_destroy.yy",
                 "resourceType": "GMSprite"
             }
         },
