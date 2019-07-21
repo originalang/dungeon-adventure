@@ -1,3 +1,8 @@
 if hp <= 0 {
-	state = "destroy";
+	life -= 1;
+	hp = 30;
+}
+
+if life == 0 {
+	game_end();
 }
