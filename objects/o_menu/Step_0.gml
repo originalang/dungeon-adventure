@@ -17,9 +17,10 @@ if menu_control {
 
 if menu_committed != -1 {
 	switch menu[menu_committed] {
-		case "New Game": default:
+		case "Start": default:			
 			transition(TRANSITIONS.NEXT);
 			break;
+
 		case "Exit":
 			game_end();
 			break;

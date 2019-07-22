@@ -535,14 +535,6 @@
             }
         },
         {
-            "Key": "9757a8b6-7102-4b5d-b447-33c4da42f788",
-            "Value": {
-                "id": "0cf7b860-8f35-446b-8e01-6a066ddaae67",
-                "resourcePath": "rooms\\r_game_over\\r_game_over.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "9d5fc5fc-a429-40f4-8f74-7912dd76a9f8",
             "Value": {
                 "id": "6d943891-5a0c-48ec-afb8-5a3e05994c5a",
@@ -663,6 +655,14 @@
             }
         },
         {
+            "Key": "c3d6df80-5a2c-468d-a428-538b03d54ca4",
+            "Value": {
+                "id": "6cd4774c-0263-43ef-bb2e-fbaa09e74592",
+                "resourcePath": "fonts\\f_game_over\\f_game_over.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c403dec1-b85d-4080-93b7-87588142c3eb",
             "Value": {
                 "id": "dbadb95a-81de-4129-a883-a487a0ff7cd8",
@@ -711,11 +711,27 @@
             }
         },
         {
+            "Key": "cead0470-161b-49f6-ad1f-1fb9a46d3481",
+            "Value": {
+                "id": "cc802565-07b9-4b49-8eb9-70f47bc1a797",
+                "resourcePath": "sprites\\s_title\\s_title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ced0c94a-f285-4846-a32a-80f019bd8bbc",
             "Value": {
                 "id": "430d40d5-64be-48c5-a519-d0b43b382b91",
                 "resourcePath": "scripts\\move_horizontal\\move_horizontal.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cee792f8-b587-4be9-ba2b-75c11d573168",
+            "Value": {
+                "id": "d4350d78-9255-4402-9bda-3a3e072b12d7",
+                "resourcePath": "sprites\\s_player_death\\s_player_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -732,6 +748,14 @@
                 "id": "3991ef79-ba2c-47a0-97ba-28fec3334ad1",
                 "resourcePath": "sprites\\s_heavy_bandit_mask\\s_heavy_bandit_mask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d652a003-420e-4d6a-8f71-7b7993388dd4",
+            "Value": {
+                "id": "816d1981-67d3-4a4a-9391-8755b73226c8",
+                "resourcePath": "objects\\o_game_over\\o_game_over.yy",
+                "resourceType": "GMObject"
             }
         },
         {

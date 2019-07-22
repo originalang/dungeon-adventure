@@ -27,7 +27,7 @@ state = "normal";
 input = instance_create_layer(0, 0, "Player", o_input);
 
 // player stats
-life = 3;
+life = 1;
 max_life = life;
-hp = 30;
+hp = 20;
 max_hp = hp;

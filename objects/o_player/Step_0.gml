@@ -1,4 +1,4 @@
-show_debug_message(string(life) + " " + string(hp));
+#region Setup
 // this variable handles the direction of movement
 // the input variables return 1 or 0 depending on whether the key is pressed
 // right pressed: 1 - 0 = 1 => move right
@@ -10,6 +10,7 @@ var move = input.right - input.left;
 if place_meeting(x, y + 1, o_wall) {
 	on_platform = true;
 }
+#endregion
 
 switch state {
 	case "normal":
@@ -188,12 +189,14 @@ switch state {
 		#endregion
 		break;
 		
-	case "destroy":
+	case "death":
 		#region Destroy State
-		sprite_index = s_player_knockback;
+		sprite_index = s_player_death;
 		
 		if animation_end() {
-			instance_destroy();
+			o_player.x = 0;
+			o_player.y = 0;
+			instance_create_layer(0, 0, "Player", o_game_over);
 		}
 		#endregion
 		break;

@@ -4,5 +4,5 @@ if hp <= 0 {
 }
 
 if life == 0 {
-	game_end();
+	state = "death";
 }
