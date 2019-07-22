@@ -12,4 +12,12 @@ if instance_exists(o_player) {
 			draw_sprite(s_full_heart, -1, hud_x * i, hud_y);
 		}
 	}
+
+	coins_txt = "COINS: " + string(o_player.coins);
+	keys_txt = "KEYS: " + string(o_player.keys);
+	draw_set_halign(fa_left);
+	draw_set_font(f_hud);
+	draw_set_color(c_white);
+	draw_text(hud_x, hud_y + 30, coins_txt);
+	draw_text(hud_x, hud_y + 50, keys_txt);
 }
