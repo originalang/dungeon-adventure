@@ -20,6 +20,10 @@ if menu_committed != -1 {
 		case "Start": default:			
 			transition(TRANSITIONS.NEXT);
 			break;
+		
+		case "Instructions":
+			transition(TRANSITIONS.GOTO, r_instructions);
+			break;
 
 		case "Exit":
 			game_end();

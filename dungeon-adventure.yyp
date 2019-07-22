@@ -151,11 +151,27 @@
             }
         },
         {
+            "Key": "220b5d22-5299-4d75-a280-2243c2e5ec85",
+            "Value": {
+                "id": "b1de8b19-88f2-45d8-9e7b-c26fe2b29334",
+                "resourcePath": "sprites\\s_instructions\\s_instructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22a5d045-7275-410a-9230-26b31db36bb1",
             "Value": {
                 "id": "f1614d23-8deb-488c-99d9-ba7fe9d962d5",
                 "resourcePath": "views\\22a5d045-7275-410a-9230-26b31db36bb1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "25a1cdc7-8a15-44e3-a754-ec08a88377ee",
+            "Value": {
+                "id": "3fcb62c7-6784-4607-af08-bb755f8f499f",
+                "resourcePath": "rooms\\r_instructions\\r_instructions.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -199,14 +215,6 @@
             }
         },
         {
-            "Key": "332cfe98-b1f4-49ab-8e85-1acaebfe1793",
-            "Value": {
-                "id": "6ac312a7-ac35-43b8-8070-626e6366aa03",
-                "resourcePath": "scripts\\pace\\pace.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "37142fa4-70f5-4d16-b552-c31aefaa3fe1",
             "Value": {
                 "id": "17c67b48-6be8-4798-bd42-4852e02237d6",
@@ -215,18 +223,18 @@
             }
         },
         {
+            "Key": "379ed7eb-44e0-451f-941e-581f1d70b7bb",
+            "Value": {
+                "id": "8d693446-10c8-487a-a97e-7d8fdf00dc96",
+                "resourcePath": "rooms\\r_three\\r_three.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "37da86e1-aac5-4fbe-8eff-0f98ddde383f",
             "Value": {
                 "id": "fe6102c3-1c04-4413-b0df-ed20550f5342",
                 "resourcePath": "sprites\\s_player_combo_damage1\\s_player_combo_damage1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3988fd1b-2a4f-404a-aa69-d4e0dc2ca191",
-            "Value": {
-                "id": "7e19060d-25e8-4ed6-9826-cfcab897dafb",
-                "resourcePath": "sprites\\s_sorceress_attack\\s_sorceress_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -479,27 +487,11 @@
             }
         },
         {
-            "Key": "83c70bb1-4a63-4db3-ac71-af1507774d6f",
-            "Value": {
-                "id": "2f664452-64af-473a-b64a-8c39ac7a8e54",
-                "resourcePath": "sprites\\s_sorceress_idle\\s_sorceress_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "843165d8-512f-4a77-8605-ac5ea559ed46",
             "Value": {
                 "id": "27b1cae0-d840-4277-a319-d1d4080b5c95",
                 "resourcePath": "scripts\\animation_hit_frame\\animation_hit_frame.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "852a1e0c-e5a8-4578-8ba2-07edd60a22e9",
-            "Value": {
-                "id": "4d01127c-f49c-4f5b-bc4b-a4db522c3d8f",
-                "resourcePath": "objects\\o_sorceress\\o_sorceress.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -879,14 +871,6 @@
             }
         },
         {
-            "Key": "e3fa5fa6-c2f2-45ea-9835-3d9cf711d0d6",
-            "Value": {
-                "id": "8582e876-ab7f-45be-a26a-52c9a29ee87f",
-                "resourcePath": "views\\e3fa5fa6-c2f2-45ea-9835-3d9cf711d0d6.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "e7cf0703-7ca9-4e91-8c13-0ec8122b59d8",
             "Value": {
                 "id": "37cb1980-e392-45f8-ba64-092222177f90",
@@ -971,7 +955,6 @@
         "fb9470d5-2e3c-4e7b-9ef5-2083ed904cf4",
         "843165d8-512f-4a77-8605-ac5ea559ed46",
         "442b707c-8368-473c-926e-c9dcf0832c1f",
-        "332cfe98-b1f4-49ab-8e85-1acaebfe1793",
         "bedaa759-d6c3-4f31-afe4-f6cc7e5893cd",
         "ced0c94a-f285-4846-a32a-80f019bd8bbc",
         "45068788-5dab-4ce9-9a9c-790f91a27ccf",
