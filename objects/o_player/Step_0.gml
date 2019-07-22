@@ -22,6 +22,7 @@ switch state {
 		vsp += grv;
 		
 		if on_platform and input.space {
+			audio_play_sound(sd_jump, 5, false);
 			vsp -= jump_distance;
 			on_platform = false;			
 		}

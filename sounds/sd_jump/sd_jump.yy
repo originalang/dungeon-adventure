@@ -1,8 +1,8 @@
 {
-    "id": "be410945-e995-4c02-9691-a55faac9013c",
+    "id": "37142fa4-70f5-4d16-b552-c31aefaa3fe1",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sd_sword_hit",
+    "name": "sd_jump",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.4
+    "volume": 0.2
 }
