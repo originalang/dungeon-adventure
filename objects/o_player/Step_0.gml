@@ -84,6 +84,7 @@ switch state {
 		
 		if on_platform and input.char_z {
 			image_index = 0;
+			audio_play_sound(sd_sword_swipe, 5, false);
 			state = "attack";
 		}
 
@@ -121,7 +122,7 @@ switch state {
 		break;
 		
 	case "attack":
-		#region Attack State
+		#region Attack State		
 		sprite_index = s_player_down_strike;
 		
 		if animation_hit_frame(1) {
@@ -130,6 +131,7 @@ switch state {
 		
 		if input.shift {
 			image_index = 0;
+			audio_play_sound(sd_sword_swipe, 5, false);
 			state = "combo1";
 		}
 		
@@ -150,11 +152,12 @@ switch state {
 		
 		if input.char_x {
 			image_index = 0;
+			audio_play_sound(sd_sword_swipe, 5, false);
 			state = "combo2";
 		}
 		
 		// when the animation has ended, go back to the normal state
-		if animation_end() {
+		if animation_end() {			
 			state = "normal";
 		}
 		#endregion
@@ -169,6 +172,7 @@ switch state {
 		}
 		
 		if animation_hit_frame(7) {
+			audio_play_sound(sd_sword_hit, 5, false);
 			create_hitbox(x, y, self, s_player_combo_damage2, 3, 4, 2, image_xscale);
 		}
 		
@@ -177,7 +181,7 @@ switch state {
 		}
 		
 		// when the animation has ended, go back to the normal state
-		if animation_end() {
+		if animation_end() {			
 			state = "normal";
 		}
 		#endregion
