@@ -24,6 +24,10 @@ if menu_committed != -1 {
 		case "Instructions":
 			transition(TRANSITIONS.GOTO, r_instructions);
 			break;
+			
+		case "Credits":
+			transition(TRANSITIONS.GOTO, r_credits);
+			break;
 
 		case "Exit":
 			game_end();
