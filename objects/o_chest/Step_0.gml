@@ -16,6 +16,8 @@ switch state {
 		
 		if animation_end() {
 			image_speed = 0;
+			var game_over = instance_create_layer(0, 0, "Player", o_game_over);
+			game_over.txt = "YOU WON!!";
 		}
 		break;
 }

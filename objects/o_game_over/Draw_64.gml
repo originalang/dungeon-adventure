@@ -11,7 +11,6 @@ draw_set_alpha(1.0);
 
 
 // game over message
-txt = "GAME OVER";
 offset = 2;
 
 draw_set_color(c_gray);
