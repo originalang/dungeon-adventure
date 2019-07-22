@@ -1,3 +1,9 @@
+// start the background music
+if not audio_is_playing(sd_dungeon_explorer) {
+	audio_play_sound(sd_dungeon_explorer, 9, true);
+}
+
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
