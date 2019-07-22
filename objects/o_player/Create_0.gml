@@ -31,3 +31,6 @@ life = 1;
 max_life = life;
 hp = 20;
 max_hp = hp;
+coins = 0;
+keys_needed = 3;
+keys = 0;

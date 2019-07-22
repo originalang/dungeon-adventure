@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "0ff0b33c-c9b4-473a-bc31-14a1202cee13",
+            "Value": {
+                "id": "644e5e97-bd37-4ef4-8be5-f3ff1b83f9c9",
+                "resourcePath": "sprites\\s_key_silver\\s_key_silver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1282a369-f7c6-4e3e-91da-ba37ebbd8ea6",
+            "Value": {
+                "id": "c15b9d90-28ba-4515-9a62-b239079b64e2",
+                "resourcePath": "objects\\o_coin\\o_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13454c6e-e92c-40f5-b303-8919e88528a1",
             "Value": {
                 "id": "bfeb6b26-ff4e-49ef-a083-03381e3f2a01",
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "44c4d771-1cf6-4103-a5c8-9d8e18206c0b",
+            "Value": {
+                "id": "4a246719-4aca-4794-8325-637e7e2ad7c6",
+                "resourcePath": "sprites\\s_key_red\\s_key_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45068788-5dab-4ce9-9a9c-790f91a27ccf",
             "Value": {
                 "id": "65357fee-309d-415d-8d5a-2ab591e1ad0f",
@@ -275,6 +299,14 @@
             "Value": {
                 "id": "850c11a4-cfa7-498e-af79-5cad755285d0",
                 "resourcePath": "sprites\\s_light_bandit_knockback\\s_light_bandit_knockback.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c101087-cacf-4c0f-b915-d6b3511a76b6",
+            "Value": {
+                "id": "c6a34981-8bbc-47f7-8d2d-8e34b4e4cec3",
+                "resourcePath": "sprites\\s_chest_try\\s_chest_try.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -307,6 +339,14 @@
             "Value": {
                 "id": "d4f0d1e8-45a8-47fd-a507-fa75b2267134",
                 "resourcePath": "sprites\\s_heavy_bandit_run\\s_heavy_bandit_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b4db62c-77b7-4a45-a50f-1079a616bd66",
+            "Value": {
+                "id": "0e00f646-0a2e-4493-bb23-7089f8621d1f",
+                "resourcePath": "sprites\\s_key_gold\\s_key_gold.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -599,6 +639,14 @@
             }
         },
         {
+            "Key": "b4e439b8-b77f-4289-bb61-889aba387830",
+            "Value": {
+                "id": "c58d190a-7429-4b19-bad3-0f3b62838b51",
+                "resourcePath": "sprites\\s_chest_closed\\s_chest_closed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4f8585a-d7f3-49ae-96fc-6c9235874852",
             "Value": {
                 "id": "89a4d90c-c6ac-4674-aff2-818ca807821d",
@@ -628,6 +676,22 @@
                 "id": "5e0162ac-ceea-4a11-b3b1-400335018392",
                 "resourcePath": "objects\\o_enemy\\o_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b9ddcafa-3301-42fc-9542-7535caf3374d",
+            "Value": {
+                "id": "44529b37-7e45-4105-9e57-debdba206632",
+                "resourcePath": "objects\\o_key\\o_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be23f19c-dc15-4e40-96c3-e2ed376528aa",
+            "Value": {
+                "id": "44e7df02-1fa7-4bbe-813b-09e4eecb2c76",
+                "resourcePath": "sprites\\s_coin\\s_coin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -707,6 +771,22 @@
             "Value": {
                 "id": "789c2a16-f571-406c-a6d8-63b08156adbe",
                 "resourcePath": "sprites\\s_light_bandit_mask\\s_light_bandit_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd193902-796d-4fc8-a6fa-b7c442411ea8",
+            "Value": {
+                "id": "b3907cd2-2dfb-4b20-b85c-a7ed146f4ea4",
+                "resourcePath": "objects\\o_chest\\o_chest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cd36cb53-afe6-448d-b08a-6c3409489651",
+            "Value": {
+                "id": "67bd701c-885a-4882-b0bf-03df650e7325",
+                "resourcePath": "sprites\\s_chest_open\\s_chest_open.yy",
                 "resourceType": "GMSprite"
             }
         },
