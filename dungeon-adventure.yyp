@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "9757a8b6-7102-4b5d-b447-33c4da42f788",
+            "Value": {
+                "id": "0cf7b860-8f35-446b-8e01-6a066ddaae67",
+                "resourcePath": "rooms\\r_game_over\\r_game_over.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9d5fc5fc-a429-40f4-8f74-7912dd76a9f8",
             "Value": {
                 "id": "6d943891-5a0c-48ec-afb8-5a3e05994c5a",

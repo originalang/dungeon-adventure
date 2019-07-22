@@ -1,16 +1,10 @@
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
-gui_margin = 32;
 
-menu_x = gui_width;// + 200;
-menu_y = gui_height - gui_margin;
-menu_x_target = gui_width - gui_margin;
+menu_x = gui_width / 2;
+menu_y = gui_height / 2;
 
-// a lower number will increase the speed
-menu_speed = 25;
-
-menu_font = f_menu;
-menu_itemheght = font_get_size(f_menu);
+menu_itemheight = font_get_size(f_menu);
 menu_committed = -1;
 menu_control = true;
 
@@ -19,5 +13,4 @@ menu[1] = "Continue";
 menu[0] = "Exit";
 
 number_of_items = array_length_1d(menu);
-cursor = "> ";
 selected = 2;
