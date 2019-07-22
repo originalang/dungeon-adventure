@@ -190,12 +190,12 @@ switch state {
 		break;
 		
 	case "death":
-		#region Destroy State
+		#region Death State		
 		sprite_index = s_player_death;
 		
 		if animation_end() {
-			o_player.x = 0;
-			o_player.y = 0;
+			instance_deactivate_all(false);
+			audio_play_sound(sd_lose, 10, false);
 			var game_over = instance_create_layer(0, 0, "Player", o_game_over);
 			game_over.txt = "GAME OVER";
 		}
